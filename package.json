@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "babel-node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "babel-node app.js",
     "dev": "nodemon app.js",
     "devbabel": "nodemon app.js --exec babel-node"
   },
@@ -18,11 +17,13 @@
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "mongoose": "^6.0.10",
-    "morgan": "^1.10.0",
-    "@babel/cli": "^7.15.7",
+    "morgan": "^1.10.0"
+    
+  },
+  "devDependencies": {
     "@babel/core": "^7.15.8",
     "@babel/node": "^7.15.8",
+    "@babel/cli": "^7.15.7",
     "@babel/preset-env": "^7.15.8"
-  },
-  "devDependencies": {}
+  }
 }
